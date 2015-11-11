@@ -11,6 +11,7 @@
 
 
 $GLOBALS['FORMEMAILFROM']['firstname'] = array(
+	'name',
 	'firstname',
 	'vorname'
 );
