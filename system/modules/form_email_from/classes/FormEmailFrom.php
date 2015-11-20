@@ -10,7 +10,7 @@
  */
 
 
-class FormEmailFrom extends \Controller
+class FormEmailFrom extends
 {
 	public function prepareFormData( $arrSubmitted, $arrLabels, \Form $objForm, $arrFields )
 	{
