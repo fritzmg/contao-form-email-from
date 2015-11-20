@@ -21,4 +21,4 @@ $GLOBALS['TL_DCA']['tl_form_field']['fields']['useFrom'] = array
 
 $GLOBALS['TL_DCA']['tl_form_field']['fields']['mandatory']['eval']['tl_class'] = 'w50';
 
-$GLOBALS['TL_DCA']['tl_form_field']['palettes']['text'] = str_replace( 'mandatory,rgxp', 'mandatory,useFrom,rgxp', $GLOBALS['TL_DCA']['tl_form_field']['palettes']['text'] );
+$GLOBALS['TL_DCA']['tl_form_field']['palettes']['text'] = str_replace( 'mandatory', 'mandatory,useFrom', $GLOBALS['TL_DCA']['tl_form_field']['palettes']['text'] );
